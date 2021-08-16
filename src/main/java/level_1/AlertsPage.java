@@ -48,7 +48,7 @@ public class AlertsPage {
             return btnName;
         }
 
-        public static AlertButton parse(AlertButton input) {
+        public static AlertButton parse(String input) {
             return AlertButton.parse(input);
         }
     }

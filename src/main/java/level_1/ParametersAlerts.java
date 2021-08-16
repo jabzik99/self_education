@@ -9,7 +9,5 @@ public class ParametersAlerts {
     @ParameterType(value = "Click for JS Alert|Click for JS Confirm|Click for JS Prompt")
     public AlertButton OtherButton(String tabName) {
         return AlertButton.parse(tabName);
-        System.out.println();
-        System.out.println();
     }
 }

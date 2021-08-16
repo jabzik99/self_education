@@ -1,4 +1,4 @@
-package steps_definition.alertspagesteps;
+package steps_definition;
 
 import aquality.selenium.browser.AlertActions;
 import aquality.selenium.browser.AqualityServices;
@@ -23,10 +23,10 @@ public class AlertsPageSteps {
         AlertsPage alertsPage = new AlertsPage();
         return  alertsPage.checkPageLoading();
     }
-    @When("I click '{OtherButton}' alert button")
-    public void clickbtn(AlertsPage.AlertButton alertButton){
-        getElementFactory().getButton(AlertsPage.AlertButton.parse(alertButton), AlertsPage.AlertButton.parse(alertButton).toString());
-    }
+//    @When("I click '{OtherButton}' alert button")
+//    public void clickbtn(AlertsPage.AlertButton alertButton){
+//        getElementFactory().getButton(AlertsPage.AlertButton.parse(alertButton), AlertsPage.AlertButton.parse(alertButton).toString());
+//    }
     @Then("Alert with next text is displayed")
     public void isAlertPresent(){
         browser.handleAlert(AlertActions.ACCEPT);
