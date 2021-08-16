@@ -1,0 +1,149 @@
+2021-07-26 13:22:01 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 13:22:01 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 13:22:03 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 13:22:03 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 13:22:03 INFO  - Browser 'CHROME' ready...
+2021-07-26 13:22:03 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/basic_auth'
+2021-07-26 13:22:04 INFO  - Waiting for page to load
+2021-07-26 14:56:37 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 14:56:37 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 14:56:39 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 14:56:39 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 14:56:39 INFO  - Browser 'CHROME' ready...
+2021-07-26 14:56:39 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 14:56:41 INFO  - Waiting for page to load
+2021-07-26 14:58:24 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 14:58:24 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 14:58:25 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 14:58:25 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 14:58:25 INFO  - Browser 'CHROME' ready...
+2021-07-26 14:58:25 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 14:58:27 INFO  - Waiting for page to load
+2021-07-26 15:06:30 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 15:06:30 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 15:06:31 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 15:06:31 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 15:06:31 INFO  - Browser 'CHROME' ready...
+2021-07-26 15:06:31 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 15:06:33 INFO  - Waiting for page to load
+2021-07-26 15:06:33 INFO  - Label 'Test Label' :: Getting text from element
+2021-07-26 15:06:33 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-07-26 15:21:30 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 15:21:30 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 15:21:31 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 15:21:31 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 15:21:31 INFO  - Browser 'CHROME' ready...
+2021-07-26 15:21:31 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 15:21:33 INFO  - Waiting for page to load
+2021-07-26 15:21:33 INFO  - Label 'Test Label' :: Getting text from element
+2021-07-26 15:21:33 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-07-26 15:22:15 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 15:22:15 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 15:22:16 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 15:22:16 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 15:22:16 INFO  - Browser 'CHROME' ready...
+2021-07-26 15:22:16 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 15:22:18 INFO  - Waiting for page to load
+2021-07-26 15:22:18 INFO  - Label 'Test Label' :: Getting text from element
+2021-07-26 15:22:18 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-07-26 15:27:10 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 15:27:10 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 15:27:12 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 15:27:12 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 15:27:12 INFO  - Browser 'CHROME' ready...
+2021-07-26 15:27:12 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-07-26 15:27:14 INFO  - Waiting for page to load
+2021-07-26 15:27:14 INFO  - Label 'Test Label' :: Getting text from element
+2021-07-26 15:27:14 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-07-26 22:39:36 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 22:39:36 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 22:39:38 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 22:39:38 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 22:39:38 INFO  - Browser 'CHROME' ready...
+2021-07-26 22:39:38 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/javascript_alerts'
+2021-07-26 22:39:39 INFO  - Waiting for page to load
+2021-07-26 22:39:39 INFO  - Getting current url
+2021-07-26 22:39:39 INFO  - Current url: [http://the-internet.herokuapp.com/javascript_alerts]
+2021-07-26 22:40:20 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 22:40:20 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 22:40:22 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 22:40:22 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 22:40:22 INFO  - Browser 'CHROME' ready...
+2021-07-26 22:40:22 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/javascript_alerts'
+2021-07-26 22:40:23 INFO  - Waiting for page to load
+2021-07-26 22:40:23 INFO  - Getting current url
+2021-07-26 22:40:23 INFO  - Current url: [http://the-internet.herokuapp.com/javascript_alerts]
+2021-07-26 23:58:14 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-07-26 23:58:14 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-07-26 23:58:16 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-07-26 23:58:16 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-07-26 23:58:16 INFO  - Browser 'CHROME' ready...
+2021-07-26 23:58:16 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/javascript_alerts'
+2021-07-26 23:58:18 INFO  - Waiting for page to load
+2021-07-26 23:58:18 INFO  - Getting current url
+2021-07-26 23:58:18 INFO  - Current url: [http://the-internet.herokuapp.com/javascript_alerts]
+2021-08-15 18:12:11 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-08-15 18:12:11 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-08-15 18:12:13 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-08-15 18:12:13 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-08-15 18:12:13 INFO  - Browser 'CHROME' ready...
+2021-08-15 18:12:13 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/javascript_alerts'
+2021-08-15 18:12:14 INFO  - Waiting for page to load
+2021-08-15 18:12:14 INFO  - Getting current url
+2021-08-15 18:12:14 INFO  - Current url: [http://the-internet.herokuapp.com/javascript_alerts]
+2021-08-15 18:12:14 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-08-15 18:12:17 INFO  - Waiting for page to load
+2021-08-15 18:12:17 INFO  - Label 'Test Label' :: Getting text from element
+2021-08-15 18:12:18 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-08-16 23:02:12 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-08-16 23:02:12 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-08-16 23:02:13 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-08-16 23:02:13 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-08-16 23:02:13 INFO  - Browser 'CHROME' ready...
+2021-08-16 23:02:13 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/javascript_alerts'
+2021-08-16 23:02:14 INFO  - Waiting for page to load
+2021-08-16 23:02:14 INFO  - Getting current url
+2021-08-16 23:02:14 INFO  - Current url: [http://the-internet.herokuapp.com/javascript_alerts]
+2021-08-16 23:02:14 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-08-16 23:02:16 INFO  - Waiting for page to load
+2021-08-16 23:02:16 INFO  - Label 'Test Label' :: Getting text from element
+2021-08-16 23:02:16 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]
+2021-08-16 23:09:28 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-08-16 23:09:28 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-08-16 23:09:29 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-08-16 23:09:29 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-08-16 23:09:29 INFO  - Browser 'CHROME' ready...
+2021-08-16 23:09:29 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/basic_auth'
+2021-08-16 23:09:30 INFO  - Waiting for page to load
+2021-08-16 23:09:30 INFO  - Getting current url
+2021-08-16 23:09:30 INFO  - Current url: [http://the-internet.herokuapp.com/basic_auth]
+2021-08-16 23:09:30 INFO  - Navigate to url - 'https://admin:admin@the-internet.herokuapp.com/basic_auth'
+2021-08-16 23:09:32 INFO  - Waiting for page to load
+2021-08-16 23:09:32 INFO  - Label 'Test Label' :: Getting text from element
+2021-08-16 23:09:32 INFO  - Label 'Test Label' :: Element's text: [Congratulations! You must have the proper credentials.]

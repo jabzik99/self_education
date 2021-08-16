@@ -6,29 +6,58 @@ import aquality.selenium.browser.Browser;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import level_1.AlertsPage;
+import org.openqa.selenium.Alert;
+import org.testng.Assert;
+
 import static aquality.selenium.browser.AqualityServices.getElementFactory;
 
 
 public class AlertsPageSteps {
     Browser browser = AqualityServices.getBrowser();
+    AlertsPage alertsPage = new AlertsPage();
+    Alert alert = new Alert() {
+        @Override
+        public void dismiss() {
 
+        }
+
+        @Override
+        public void accept() {
+
+        }
+
+        @Override
+        public String getText() {
+            return alert.getText();
+        }
+
+        @Override
+        public void sendKeys(String keysToSend) {
+
+        }
+    };
     @When("I navigate to the main page")
     public void openSite() {
-        AlertsPage alertsPage = new AlertsPage();
         browser.goTo(alertsPage.getURL());
         browser.waitForPageToLoad();
     }
-    @Then("Main page is opened")
-    public boolean mainPageIsOpened(){
-        AlertsPage alertsPage = new AlertsPage();
-        return  alertsPage.checkPageLoading();
+    @Then("Alerts page is opened")
+    public void mainPageIsOpened(){
+       AqualityServices.getBrowser().waitForPageToLoad();
     }
-//    @When("I click '{OtherButton}' alert button")
-//    public void clickbtn(AlertsPage.AlertButton alertButton){
-//        getElementFactory().getButton(AlertsPage.AlertButton.parse(alertButton), AlertsPage.AlertButton.parse(alertButton).toString());
-//    }
-    @Then("Alert with next text is displayed")
-    public void isAlertPresent(){
+
+    @When("I click 'Click for JS Alert' alert button")
+    public void clickButton(String value){
+        getElementFactory().getButton(AlertsPage.AlertButton.ALLERT_JS_BUTTON.getLocator(),value);
+    }
+
+    @When("I click 'OK' button")
+    public void acceptAlert(){
         browser.handleAlert(AlertActions.ACCEPT);
+    }
+
+    @Then("Alert with 'I am a JS Alert' text is displayed")
+    public void checkAlertText(String value){
+        Assert.assertTrue(alert.getText().contains(value),String.format("Alert must contains %s value", value));
     }
 }
