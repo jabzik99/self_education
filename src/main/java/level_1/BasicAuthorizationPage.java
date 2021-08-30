@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 
 public class BasicAuthorizationPage{
 
-    public IElementFactory elementFactory = AqualityServices.getElementFactory();
+    private IElementFactory elementFactory = AqualityServices.getElementFactory();
     private String USERNAME = "admin";
     private String PASSWORD = "admin";
     private String modURL = "https://" + USERNAME + ":" + PASSWORD + "@" + "the-internet.herokuapp.com/basic_auth";
