@@ -6,7 +6,7 @@ import aquality.selenium.elements.interfaces.IElementFactory;
 import org.openqa.selenium.By;
 
 
-public class BasicAuthorizationPage{
+public class BasicAuthorizationPage {
 
     private IElementFactory elementFactory = AqualityServices.getElementFactory();
     private String USERNAME = "admin";
@@ -19,9 +19,11 @@ public class BasicAuthorizationPage{
     public String getLableText(IElement label) {
         return label.getText();
     }
+
     public String getURL() {
         return URL;
     }
+
     public String getmodificationURL() {
         return modURL;
     }

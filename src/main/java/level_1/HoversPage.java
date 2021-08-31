@@ -8,7 +8,7 @@ import static java.lang.String.format;
 public class HoversPage {
     private String URL = "http://the-internet.herokuapp.com/hovers";
 
-    public String getUserName (Users user){
+    public String getUserName(Users user) {
         return user.userName;
     }
 
@@ -21,7 +21,6 @@ public class HoversPage {
         private static final String XPATH_TEMPLATE = "//h5[contains(text(),'name: %s')]";
         private static final String XPATH_TEMPLATE_HOVER_IMG = "//h5[contains(text(),'name: %s')]/parent::div//preceding-sibling::img";
         private static final String XPATH_TEMPLATE_PROFILE_LINK = "//h5[text()='name: %s']/following-sibling::a";
-
 
 
         public By getLocatorForUserName() {
@@ -37,6 +36,7 @@ public class HoversPage {
         }
 
     }
+
     public String getURL() {
         return URL;
     }

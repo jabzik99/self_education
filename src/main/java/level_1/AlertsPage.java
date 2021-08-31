@@ -12,11 +12,12 @@ public class AlertsPage {
 
     private static final String URL = "http://the-internet.herokuapp.com/javascript_alerts";
     public IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id=\"result\"]"), "Result label");
+
     public String getURL() {
         return AlertsPage.URL;
     }
 
-    public String getButtonText (AlertButton button){
+    public String getButtonText(AlertButton button) {
         return button.btnName;
     }
 
@@ -33,12 +34,11 @@ public class AlertsPage {
         }
 
 
-
         public ElementType getElementType() {
             return ElementType.BUTTON;
         }
 
-     }
-
-
     }
+
+
+}

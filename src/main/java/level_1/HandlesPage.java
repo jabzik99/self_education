@@ -84,8 +84,5 @@ public class HandlesPage {
         driver.switchTo().window(thirdWindow);
         driver.close();
 
-
     }
-
-
 }

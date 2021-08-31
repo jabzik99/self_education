@@ -24,10 +24,8 @@ public class HorizontalSliderPage {
     }
 
     public boolean checkRangeValue() {
-        if (rngLabel.equals("0") || rngLabel.equals("5")) return false;
-        else return true;
+        return !rngLabel.getText().equals("0") && !rngLabel.getText().equals("5");
     }
-
     public String getURL() {
         return URL;
     }

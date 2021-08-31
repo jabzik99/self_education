@@ -1389,3 +1389,20 @@ Driver info: driver.version: unknown
 2021-08-31 00:26:08 INFO  - Text Field 'Frame input field' :: Sending keys 'a'
 2021-08-31 00:26:08 INFO  - Button 'Bold button' :: Clicking
 2021-08-31 00:26:08 INFO  - Waiting for page to load
+2021-08-31 11:03:18 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=//home//selenium//downloads}
+2021-08-31 11:03:18 DEBUG - Got browser capabilities from settings file: 
+{enableVNC=true}
+2021-08-31 11:03:20 DEBUG - Set '15' timeout in seconds for loading of pages
+2021-08-31 11:03:20 DEBUG - Set async javascript execution timeout '10' in seconds
+2021-08-31 11:03:20 INFO  - Browser 'CHROME' ready...
+2021-08-31 11:03:20 INFO  - Navigate to url - 'http://the-internet.herokuapp.com/iframe'
+2021-08-31 11:03:24 INFO  - Waiting for page to load
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Sending keys 'a'
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Sending key 'Keys.DELETE'
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Sending keys 'ZQYjGive'
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Getting text from element
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Element's text: [ZQYjGive]
+2021-08-31 11:03:24 INFO  - Text Field 'Frame input field' :: Sending keys 'a'
+2021-08-31 11:03:24 INFO  - Button 'Bold button' :: Clicking
+2021-08-31 11:03:25 INFO  - Waiting for page to load

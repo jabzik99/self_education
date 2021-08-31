@@ -75,11 +75,11 @@ public class HoversPageSteps {
     @Then("Page for {string} is opened")
     public void checkPageOpening(String value){
         if (value.equals(page.getUserName(USER1))) {
-            AqualityServices.getBrowser().getCurrentUrl().contains("/users/1");
+            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/1"));
         } else if (value.equals(page.getUserName(USER2))) {
-            AqualityServices.getBrowser().getCurrentUrl().contains("/users/2");
+            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/2"));
         } else {
-            AqualityServices.getBrowser().getCurrentUrl().contains("/users/3");
+            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/3"));
         }
     }
 
@@ -91,6 +91,6 @@ public class HoversPageSteps {
 
     @Then("Page with users is displayed")
     public void checkPagewithUsers(){
-        AqualityServices.getBrowser().getCurrentUrl().contains(page.getURL());
+        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(page.getURL()));
     }
 }
