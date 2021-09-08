@@ -1,12 +1,20 @@
 package level_1;
 
+import aquality.selenium.forms.Form;
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.By;
 
 import static java.lang.String.format;
 
-public class HoversPage {
-    private String URL = "http://the-internet.herokuapp.com/hovers";
+public class HoversPage extends Form {
+
+    protected HoversPage(By locator, String name) {
+        super(locator, name);
+    }
+
+    public HoversPage(String name){
+        this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
+    }
 
     public String getUserName(Users user) {
         return user.userName;
@@ -37,7 +45,4 @@ public class HoversPage {
 
     }
 
-    public String getURL() {
-        return URL;
-    }
 }

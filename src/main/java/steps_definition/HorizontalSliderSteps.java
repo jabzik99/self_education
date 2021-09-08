@@ -6,14 +6,15 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import level_1.HorizontalSliderPage;
 import org.testng.Assert;
+import utilities.PropertiesUtil;
 
 public class HorizontalSliderSteps {
     Browser browser = AqualityServices.getBrowser();
-    HorizontalSliderPage page = new HorizontalSliderPage();
+    HorizontalSliderPage page = new HorizontalSliderPage("Horizontal Slider");
 
     @When("I navigate to Horizontal Slider page")
     public void navigateToPage() {
-        browser.goTo(page.getURL());
+        browser.goTo(PropertiesUtil.getEnvironment("environment.horizontal_slider"));
         browser.waitForPageToLoad();
     }
 

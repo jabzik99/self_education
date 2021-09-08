@@ -4,32 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="">
+    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="wip">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ModifyingUrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/basicauthtestdata.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/environment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self_education.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/AlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/AlertsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Environment.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main_1" />
+        <entry key="$PROJECT_DIR$" value="rest_api" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="ProjectId" id="1xsCaa0oIRWTLBosmxAxYXlxSN6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS">
+    <configuration name="AlertsPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="level_1.AlertsPage" />
+      <module name="self_education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Environment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.Environment" />
+      <module name="self_education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -43,6 +107,26 @@
       <option name="NAME_FILTER" value="^TC \- 1\. Basic Authorization$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 1\. Basic Authorization$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC - 1. Basic Authorization" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC - 2.1 - 2.2 Alerts + JS" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/scripts/Level1features.feature" />
+      <option name="GLUE" value="steps_definition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="self_education" />
+      <option name="NAME_FILTER" value="^TC \- 2\.1 \- 2\.2 Alerts \+ JS$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 2\.1 \- 2\.2 Alerts \+ JS$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC - 2.1 - 2.2 Alerts + JS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -103,10 +187,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS" />
+        <item itemvalue="Application.AlertsPage" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
+        <item itemvalue="Application.Environment" />
         <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="test">
       <created>1630405356583</created>
@@ -143,8 +232,30 @@
       <option name="project" value="LOCAL" />
       <updated>1630407997233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="wip">
+      <created>1631133777997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631133777997</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="wip" />
+      <created>1631134474105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631134474105</updated>
+      <workItem from="1631134478961" duration="143000" />
+      <workItem from="1631134687390" duration="2093000" />
+      <workItem from="1631136827214" duration="749000" />
+      <workItem from="1631137695620" duration="922000" />
+      <workItem from="1631138904464" duration="2658000" />
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -172,6 +283,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
 </project>

@@ -6,17 +6,18 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import level_1.HoversPage;
 import org.testng.Assert;
+import utilities.PropertiesUtil;
 
 import static aquality.selenium.browser.AqualityServices.getElementFactory;
 import static level_1.HoversPage.Users.*;
 
 public class HoversPageSteps {
     Browser browser = AqualityServices.getBrowser();
-    HoversPage page = new HoversPage();
+    HoversPage page = new HoversPage("Horizontal Slider");
 
     @When("I navigate to Hovers page")
     public void navigateToPage() {
-        browser.goTo(page.getURL());
+        browser.goTo(PropertiesUtil.getEnvironment("environment.hovers"));
         browser.waitForPageToLoad();
     }
 
@@ -91,6 +92,6 @@ public class HoversPageSteps {
 
     @Then("Page with users is displayed")
     public void checkPagewithUsers(){
-        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(page.getURL()));
+        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(PropertiesUtil.getEnvironment("environment.hovers")));
     }
 }
