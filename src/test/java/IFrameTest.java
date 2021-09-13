@@ -10,7 +10,7 @@ import utilities.PropertiesUtil;
 
 public class IFrameTest {
     @Test
-    public void iframeTest(){
+    public void iframeTest() {
         WebDriver driver = AqualityServices.getBrowser().getDriver();
         Browser browser = AqualityServices.getBrowser();
         IFrame page = new IFrame("An iFrame containing the TinyMCE WYSIWYG Editor");

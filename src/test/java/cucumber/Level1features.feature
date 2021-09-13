@@ -1,33 +1,33 @@
 Feature: Level1
 
-#  Scenario: TC - 1. Basic Authorization
-#    When I navigate to the Basic Authorization page
-#    Then Basic Authorization page is opened
-#    When I navigate to the site by modifying URL address
-#    Then 'Congratulations! You must have the proper credentials.' message is displayed on the page
+  Scenario: TC - 1. Basic Authorization
+    When I navigate to the Basic Authorization page
+    Then Basic Authorization page is opened
+    When I navigate to the site by modifying URL address
+    Then 'Congratulations! You must have the proper credentials.' message is displayed on the page
 
 
-#  Scenario: TC - 2.1 - 2.2 Alerts + JS
-#    When I navigate to the JavaScript Alerts page
-#    Then Alerts page is opened
-#    When I click 'Click for JS Alert' button with JS functions
-#    Then Alert with 'I am a JS Alert' text is displayed
-#    When I accept alert
-#    Then 'You successfully clicked an alert' message is displayed in 'Result' section
-#    When I click 'Click for JS Confirm' button with JS functions
-#    Then Alert with 'I am a JS Confirm' text is displayed
-#    When I accept alert
-#    Then 'You clicked: Ok' message is displayed in 'Result' section
-#    When I click 'Click for JS Prompt' button with JS functions
-#    Then Alert with 'I am a JS prompt' text is displayed
-#    When I handle promt alert with random value and save it as 'random_value'
-#    Then 'You entered:' message with 'random_value' is displayed in 'Result' section
+  Scenario: TC - 2.1 - 2.2 Alerts + JS
+    When I navigate to the JavaScript Alerts page
+    Then Alerts page is opened
+    When I click 'Click for JS Alert' button with JS functions
+    Then Alert with 'I am a JS Alert' text is displayed
+    When I accept alert
+    Then 'You successfully clicked an alert' message is displayed in 'Result' section
+    When I click 'Click for JS Confirm' button with JS functions
+    Then Alert with 'I am a JS Confirm' text is displayed
+    When I accept alert
+    Then 'You clicked: Ok' message is displayed in 'Result' section
+    When I click 'Click for JS Prompt' button with JS functions
+    Then Alert with 'I am a JS prompt' text is displayed
+    When I handle promt alert with random value and save it as 'random_value'
+    Then 'You entered:' message with 'random_value' is displayed in 'Result' section
 
-#  Scenario: TC - 3. Actions
-#    When I navigate to Horizontal Slider page
-#    Then Horizontal Slider page is opened
-#    When I set random value for slider except boundary values
-#    Then Valid values is displayed near by slider
+  Scenario: TC - 3. Actions
+    When I navigate to Horizontal Slider page
+    Then Horizontal Slider page is opened
+    When I set random value for slider except boundary values
+    Then Valid values is displayed near by slider
 
   Scenario: TC - 4. Hovers
     When I navigate to Hovers page

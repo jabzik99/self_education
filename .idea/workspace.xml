@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="wip">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ModifyingUrlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basicauthtestdata.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/AlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/AlertsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Environment.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="fix comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,34 +40,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS">
-    <configuration name="AlertsPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level_1.AlertsPage" />
-      <module name="self_education" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Environment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.Environment" />
-      <module name="self_education" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 4. Hovers">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,9 +56,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: Level1features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
+      <option name="GLUE" value="steps_definition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="self_education" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Level1features" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: TC - 1. Basic Authorization" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/scripts/Level1features.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
       <option name="GLUE" value="steps_definition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="self_education" />
@@ -118,15 +95,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC - 2.1 - 2.2 Alerts + JS" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC - 2.1 - 2.2 Alerts + JS (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/scripts/Level1features.feature" />
-      <option name="GLUE" value="steps_definition" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
+      <option name="GLUE" value="steps_definition.alerts" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="self_education" />
       <option name="NAME_FILTER" value="^TC \- 2\.1 \- 2\.2 Alerts \+ JS$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 2\.1 \- 2\.2 Alerts \+ JS$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC - 2.1 - 2.2 Alerts + JS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC - 4. Hovers for &lt;user&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
+      <option name="GLUE" value="steps_definition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="self_education" />
+      <option name="NAME_FILTER" value="^TC \- 4\. Hovers for .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 4\. Hovers for .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC - 4. Hovers for &lt;user&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC - 4. Hovers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
+      <option name="GLUE" value="steps_definition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="self_education" />
+      <option name="NAME_FILTER" value="^TC \- 4\. Hovers$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 4\. Hovers$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC - 4. Hovers" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -187,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS" />
-        <item itemvalue="Application.AlertsPage" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS (1)" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers for &lt;user&gt;" />
         <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
-        <item itemvalue="Application.Environment" />
-        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
+        <item itemvalue="Cucumber Java.Feature: Level1features" />
       </list>
     </recent_temporary>
   </component>
@@ -249,9 +266,69 @@
       <workItem from="1631134687390" duration="2093000" />
       <workItem from="1631136827214" duration="749000" />
       <workItem from="1631137695620" duration="922000" />
-      <workItem from="1631138904464" duration="2658000" />
+      <workItem from="1631138904464" duration="2741000" />
+      <workItem from="1631432491065" duration="4624000" />
+      <workItem from="1631451163049" duration="3900000" />
+      <workItem from="1631458190649" duration="241000" />
+      <workItem from="1631458453165" duration="102000" />
+      <workItem from="1631458647637" duration="534000" />
+      <workItem from="1631459260948" duration="161000" />
+      <workItem from="1631459669687" duration="811000" />
+      <workItem from="1631460649335" duration="273000" />
+      <workItem from="1631460975201" duration="46000" />
+      <workItem from="1631461038661" duration="28000" />
+      <workItem from="1631461338044" duration="655000" />
+      <workItem from="1631470729415" duration="511000" />
+      <workItem from="1631471282565" duration="624000" />
+      <workItem from="1631471949739" duration="15000" />
+      <workItem from="1631472061103" duration="897000" />
+      <workItem from="1631473006273" duration="247000" />
+      <workItem from="1631473326724" duration="672000" />
+      <workItem from="1631474098762" duration="89000" />
+      <workItem from="1631474234879" duration="21000" />
+      <workItem from="1631474276841" duration="54000" />
+      <workItem from="1631474350353" duration="26000" />
+      <workItem from="1631474407273" duration="88000" />
+      <workItem from="1631474524928" duration="2000" />
+      <workItem from="1631474655472" duration="356000" />
+      <workItem from="1631475062871" duration="451000" />
+      <workItem from="1631475698594" duration="511000" />
+      <workItem from="1631476444791" duration="211000" />
+      <workItem from="1631476778580" duration="35000" />
+      <workItem from="1631476881535" duration="343000" />
+      <workItem from="1631477260605" duration="222000" />
+      <workItem from="1631477756447" duration="133000" />
+      <workItem from="1631478253859" duration="124000" />
+      <workItem from="1631478706044" duration="387000" />
+      <workItem from="1631479181124" duration="67000" />
+      <workItem from="1631479279508" duration="52000" />
+      <workItem from="1631479370143" duration="60000" />
+      <workItem from="1631479442392" duration="11000" />
+      <workItem from="1631479483307" duration="114000" />
+      <workItem from="1631479634759" duration="322000" />
+      <workItem from="1631480069334" duration="236000" />
+      <workItem from="1631480351495" duration="318000" />
+      <workItem from="1631557650710" duration="1900000" />
+      <workItem from="1631559593245" duration="476000" />
+      <workItem from="1631560245001" duration="1770000" />
+      <workItem from="1631562048093" duration="200000" />
+      <workItem from="1631562281122" duration="4953000" />
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wip">
+      <created>1631141660779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631141660779</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix comments">
+      <created>1631567432061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631567432061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +361,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="fix comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix comments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

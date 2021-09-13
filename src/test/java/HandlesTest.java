@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class HandlesTest {
     @Test
-    public void handlesTest(){
+    public void handlesTest() {
         //I navigate to main page
         WebDriver driver = AqualityServices.getBrowser().getDriver();
         HandlesPage page = new HandlesPage("Opening a new window");
