@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 
 import static java.lang.String.format;
 
-
 public class BasicAuthorizationPage extends Form {
 
     private IElementFactory elementFactory = AqualityServices.getElementFactory();
@@ -26,6 +25,5 @@ public class BasicAuthorizationPage extends Form {
     public String getLableText() {
         return label.getText();
     }
-
 
 }

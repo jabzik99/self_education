@@ -9,7 +9,6 @@ import java.util.Properties;
 public class PropertiesUtil {
     public static final Properties properties = new Properties();
 
-
     public void load(InputStream io) {
         try {
             properties.load(io);

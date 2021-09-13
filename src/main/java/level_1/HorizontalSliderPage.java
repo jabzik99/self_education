@@ -22,7 +22,7 @@ public class HorizontalSliderPage extends Form {
         super(locator, name);
     }
 
-    public HorizontalSliderPage(String name){
+    public HorizontalSliderPage(String name) {
         this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
     }
 
@@ -33,7 +33,7 @@ public class HorizontalSliderPage extends Form {
         }
     }
 
-    public boolean checkRangeValue() {
+    public boolean isRangeValuesOnBorder() {
         return !rngLabel.getText().equals("0") && !rngLabel.getText().equals("5");
     }
 

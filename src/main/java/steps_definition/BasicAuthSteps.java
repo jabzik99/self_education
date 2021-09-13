@@ -13,8 +13,8 @@ import static java.lang.String.format;
 
 
 public class BasicAuthSteps {
-    Browser browser = AqualityServices.getBrowser();
-    BasicAuthorizationPage page = new BasicAuthorizationPage("Basic Auth");
+    private Browser browser = AqualityServices.getBrowser();
+    private BasicAuthorizationPage page = new BasicAuthorizationPage("Basic Auth");
 
     @When("I navigate to the Basic Authorization page")
     public void openSite() {

@@ -1,4 +1,4 @@
-package steps_definition;
+package steps_definition.alerts;
 
 import aquality.selenium.browser.AlertActions;
 import aquality.selenium.browser.AqualityServices;
@@ -23,9 +23,7 @@ import static level_1.AlertsPage.AlertButton.CONFIRM_JS_BUTTON;
 
 public class AlertsPageSteps {
 
-
-
-    Browser browser = AqualityServices.getBrowser();
+    private Browser browser = AqualityServices.getBrowser();
     private final ScenarioContext scenarioContext;
     private final AlertsPage alertsPage;
 
@@ -34,28 +32,6 @@ public class AlertsPageSteps {
         alertsPage = new AlertsPage("JavaScript Alerts");
         this.scenarioContext = scenarioContext;
     }
-
-    Alert alert = new Alert() {
-        @Override
-        public void dismiss() {
-
-        }
-
-        @Override
-        public void accept() {
-
-        }
-
-        @Override
-        public String getText() {
-            return alert.getText();
-        }
-
-        @Override
-        public void sendKeys(String keysToSend) {
-
-        }
-    };
 
     @When("I navigate to the JavaScript Alerts page")
     public void openSite() {
@@ -104,7 +80,7 @@ public class AlertsPageSteps {
 
     @Then("Alert with {string} text is displayed")
     public void checkAlertText(String value) {
-        alert = getConditionalWait().waitFor(ExpectedConditions.alertIsPresent());
+        Alert alert = getConditionalWait().waitFor(ExpectedConditions.alertIsPresent());
         Assert.assertTrue(alert.getText().contains(value), String.format("Alert must contains %s value", value));
     }
 
@@ -118,6 +94,4 @@ public class AlertsPageSteps {
         String expectedString = value + " " + scenarioContext.get(storeValue);
         Assert.assertTrue(alertsPage.getLabelText().contains(expectedString), String.format("Result section must contains %s value", expectedString));
     }
-
-
 }

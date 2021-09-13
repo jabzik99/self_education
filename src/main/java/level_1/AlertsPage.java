@@ -1,6 +1,5 @@
 package level_1;
 
-import aquality.selenium.elements.ElementType;
 import aquality.selenium.elements.interfaces.IElement;
 import aquality.selenium.forms.Form;
 import lombok.AllArgsConstructor;
@@ -20,7 +19,7 @@ public class AlertsPage extends Form {
         this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
     }
 
-    public String getButtonText(AlertButton button) {
+    public static String getButtonText(AlertButton button) {
         return button.btnName;
     }
 
@@ -38,7 +37,7 @@ public class AlertsPage extends Form {
 
     }
 
-    public String getLabelText(){
+    public String getLabelText() {
         return lblResult.getText();
     }
 }
