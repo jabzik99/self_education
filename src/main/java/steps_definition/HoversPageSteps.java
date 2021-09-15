@@ -8,13 +8,20 @@ import level_1.HoversPage;
 import org.testng.Assert;
 import utilities.PropertiesUtil;
 
+import javax.inject.Inject;
 import java.util.Locale;
 
 import static aquality.selenium.browser.AqualityServices.getElementFactory;
 
 public class HoversPageSteps {
-    private Browser browser = AqualityServices.getBrowser();
-    private HoversPage page = new HoversPage("Horizontal Slider");
+    private final Browser browser;
+    private final HoversPage page;
+
+    @Inject
+    HoversPageSteps() {
+        browser = AqualityServices.getBrowser();
+        page = new HoversPage();
+    }
 
     @When("I navigate to Hovers page")
     public void navigateToPage() {
@@ -24,7 +31,7 @@ public class HoversPageSteps {
 
     @Then("Hovers page is opened")
     public void PageIsOpened() {
-        AqualityServices.getBrowser().waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "Hovers page isn't opened");
     }
 
     @When("I hover the pointer for '{users}' user")
@@ -37,7 +44,7 @@ public class HoversPageSteps {
         Assert.assertTrue(user.getLocatorForUserName().toString().contains(user.toString().toLowerCase(Locale.ROOT)), String.format("User name must contain %s", user.toString().toLowerCase(Locale.ROOT)));
     }
 
-    @When("Profile link for '{users}' user is displayed")
+    @Then("Profile link for '{users}' user is displayed")
     public void checkProfileLink(HoversPage.Users user) {
         Assert.assertTrue(getElementFactory().getLink(user.getLocatorForProfileLink(), "User link ").state().isExist(), "Link is not displayed");
     }
@@ -45,20 +52,18 @@ public class HoversPageSteps {
     @When("I click profile link for '{users}'")
     public void clickProfileLink(HoversPage.Users user) {
         getElementFactory().getLabel(user.getLocatorForProfileLink(), user.getDisplayedName()).click();
-        browser.waitForPageToLoad();
     }
 
     @Then("Page for '{users}' is opened")
     public void checkPageOpening(HoversPage.Users user) {
-        AqualityServices.getBrowser().waitForPageToLoad();
+        page.state().waitForDisplayed();
         Integer userOrdinal = user.ordinal() + 1;
-        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(userOrdinal.toString()));
+        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(userOrdinal.toString()), String.format("Page for %d user is not opened", userOrdinal));
     }
 
     @When("I navigate to previous page")
     public void browserGoBack() {
         AqualityServices.getBrowser().goBack();
-        browser.waitForPageToLoad();
     }
 
     @Then("Page with users is displayed")

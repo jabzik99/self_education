@@ -9,16 +9,8 @@ import static java.lang.String.format;
 
 public class HoversPage extends Form {
 
-    protected HoversPage(By locator, String name) {
-        super(locator, name);
-    }
-
-    public HoversPage(String name) {
-        this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
-    }
-
-    public String getUserName(Users user) {
-        return user.userName;
+    public HoversPage() {
+        super(By.xpath("//h3[contains(text(),'%s')]"), "Horizontal Slider");
     }
 
     @AllArgsConstructor

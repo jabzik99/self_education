@@ -5,37 +5,36 @@ import aquality.selenium.core.elements.ElementState;
 import aquality.selenium.elements.interfaces.IElement;
 import aquality.selenium.forms.Form;
 import org.openqa.selenium.By;
-
-import static java.lang.String.format;
+import org.openqa.selenium.Keys;
 
 public class IFrame extends Form {
 
 
-    private IElement btnBold = AqualityServices.getElementFactory().getButton(By.xpath("//button[@title='Bold']//span"), "Bold button", ElementState.EXISTS_IN_ANY_STATE);
-    private IElement txtFramefield = AqualityServices.getElementFactory().getTextBox(By.xpath("//body[@id='tinymce']/child::p"), "Frame input field");
-    private IElement txtBoldText = AqualityServices.getElementFactory().getTextBox(By.xpath("//body[@id='tinymce']/child::p/child::strong"), "Bold text");
+    private final IElement btnBold = AqualityServices.getElementFactory().getButton(By.xpath("//button[@title='Bold']//span"), "Bold button", ElementState.EXISTS_IN_ANY_STATE);
+    private final IElement txtFramefield = AqualityServices.getElementFactory().getTextBox(By.xpath("//body[@id='tinymce']/child::p"), "Frame input field");
+    private final IElement txtBoldText = AqualityServices.getElementFactory().getTextBox(By.xpath("//body[@id='tinymce']/child::p/child::strong"), "Bold text");
 
-    protected IFrame(By locator, String name) {
-        super(locator, name);
+    public IFrame() {
+        super(By.xpath("//h3[contains(text(),'%s')]"), "An iFrame containing the TinyMCE WYSIWYG Editor");
     }
 
-    public IFrame(String name) {
-        this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
+    public void clickOnBtnBold() {
+        btnBold.clickAndWait();
     }
 
-    public IElement getBtnBold() {
-        return btnBold;
-    }
-
-    public IElement getTxtBoldButton() {
-        return txtBoldText;
+    public boolean istBoldTextIsDisplayed() {
+        return txtBoldText.state().isDisplayed();
     }
 
     public String getTxtFramefieldText() {
         return txtFramefield.getText();
     }
 
-    public IElement getTxtFramefield() {
-        return txtFramefield;
+    public void typeValueToTxtFrameField(String value){
+        txtFramefield.sendKeys(value);
+    }
+
+    public void sendKeysToTxtFrameField(Keys keys){
+        txtFramefield.sendKeys(keys);
     }
 }

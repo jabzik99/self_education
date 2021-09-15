@@ -13,30 +13,30 @@ public class IFrameTest {
     public void iframeTest() {
         WebDriver driver = AqualityServices.getBrowser().getDriver();
         Browser browser = AqualityServices.getBrowser();
-        IFrame page = new IFrame("An iFrame containing the TinyMCE WYSIWYG Editor");
+        IFrame page = new IFrame();
         //Open main page
         browser.goTo(PropertiesUtil.getEnvironment("environment.iframe"));
 
         //Main page is opened
-        browser.waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "IFrame page isn't opened");
 
         //Switch to frame. Highlight text and clear, fill the random value
         driver.switchTo().frame("mce_0_ifr");
-        page.getTxtFramefield().sendKeys(Keys.CONTROL + "a");
-        page.getTxtFramefield().sendKeys(Keys.DELETE);
+        page.typeValueToTxtFrameField(Keys.CONTROL + "a");
+        page.sendKeysToTxtFrameField(Keys.DELETE);
         String randomValue = RandomStringUtils.randomAlphabetic(8);
-        page.getTxtFramefield().sendKeys(randomValue);
+        page.typeValueToTxtFrameField(randomValue);
 
         //Text id displayed
-        Assert.assertTrue(page.getTxtFramefieldText().contains(randomValue));
+        Assert.assertTrue(page.getTxtFramefieldText().contains(randomValue),"Text is not displayed in frame");
 
         //Highlight text and click 'B' button
-        page.getTxtFramefield().sendKeys(Keys.CONTROL + "a");
+        page.typeValueToTxtFrameField(Keys.CONTROL + "a");
         driver.switchTo().defaultContent();
-        page.getBtnBold().clickAndWait();
+        page.clickOnBtnBold();
 
         //Text is displayed
         driver.switchTo().frame("mce_0_ifr");
-        Assert.assertTrue(page.getTxtBoldButton().state().isDisplayed(), "Text must be highlighted as bold");
+        Assert.assertTrue(page.istBoldTextIsDisplayed(), "Text must be highlighted as bold");
     }
 }

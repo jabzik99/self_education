@@ -8,19 +8,26 @@ import level_1.HorizontalSliderPage;
 import org.testng.Assert;
 import utilities.PropertiesUtil;
 
+import javax.inject.Inject;
+
 public class HorizontalSliderSteps {
-    private Browser browser = AqualityServices.getBrowser();
-    private HorizontalSliderPage page = new HorizontalSliderPage("Horizontal Slider");
+    private final Browser browser;
+    private final HorizontalSliderPage page;
+
+    @Inject
+    HorizontalSliderSteps() {
+        browser = AqualityServices.getBrowser();
+        page = new HorizontalSliderPage();
+    }
 
     @When("I navigate to Horizontal Slider page")
     public void navigateToPage() {
         browser.goTo(PropertiesUtil.getEnvironment("environment.horizontal_slider"));
-        browser.waitForPageToLoad();
     }
 
     @Then("Horizontal Slider page is opened")
     public void PageIsOpened() {
-        AqualityServices.getBrowser().waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "Horizontal Slider page isn't opened");
     }
 
     @When("I set random value for slider except boundary values")

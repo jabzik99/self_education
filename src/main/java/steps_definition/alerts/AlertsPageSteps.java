@@ -23,13 +23,14 @@ import static level_1.AlertsPage.AlertButton.CONFIRM_JS_BUTTON;
 
 public class AlertsPageSteps {
 
-    private Browser browser = AqualityServices.getBrowser();
+    private final Browser browser;
     private final ScenarioContext scenarioContext;
     private final AlertsPage alertsPage;
 
     @Inject
     public AlertsPageSteps(ScenarioContext scenarioContext) {
-        alertsPage = new AlertsPage("JavaScript Alerts");
+        browser = AqualityServices.getBrowser();
+        alertsPage = new AlertsPage();
         this.scenarioContext = scenarioContext;
     }
 

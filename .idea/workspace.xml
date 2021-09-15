@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="fix comments" />
+    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="fix comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/AlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/AlertsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HandlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandlesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IFrameTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,35 +57,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 4. Hovers">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: Level1features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
-      <option name="GLUE" value="steps_definition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="self_education" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Level1features" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,13 +196,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IFrameTest.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="self_education" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IFrameTest" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers" />
         <item itemvalue="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS (1)" />
+        <item itemvalue="TestNG.IFrameTest.iframeTest" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers" />
         <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers for &lt;user&gt;" />
         <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
-        <item itemvalue="Cucumber Java.Feature: Level1features" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +319,11 @@
       <workItem from="1631560245001" duration="1770000" />
       <workItem from="1631562048093" duration="200000" />
       <workItem from="1631562281122" duration="4953000" />
+      <workItem from="1631739206973" duration="777000" />
+      <workItem from="1631740084140" duration="92000" />
+      <workItem from="1631740234533" duration="214000" />
+      <workItem from="1631740503348" duration="2212000" />
+      <workItem from="1631742845059" duration="1594000" />
     </task>
     <task id="LOCAL-00007" summary="wip">
       <created>1631141660779</created>
@@ -345,7 +356,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/test" />
+                        <option value="test" />
                       </list>
                     </value>
                   </entry>

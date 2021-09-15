@@ -9,14 +9,10 @@ import static java.lang.String.format;
 
 public class AlertsPage extends Form {
 
-    private IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id='result']"), "Result label");
+    private final IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id='result']"), "Result label");
 
-    protected AlertsPage(By locator, String name) {
-        super(locator, name);
-    }
-
-    public AlertsPage(String name) {
-        this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
+    public AlertsPage() {
+        super(By.xpath("//h3[contains(text(),'%s')]"), "JavaScript Alerts");
     }
 
     public static String getButtonText(AlertButton button) {

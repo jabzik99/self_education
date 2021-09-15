@@ -6,20 +6,14 @@ import aquality.selenium.elements.interfaces.IElementFactory;
 import aquality.selenium.forms.Form;
 import org.openqa.selenium.By;
 
-import static java.lang.String.format;
-
 public class BasicAuthorizationPage extends Form {
 
-    private IElementFactory elementFactory = AqualityServices.getElementFactory();
+    private final IElementFactory elementFactory = AqualityServices.getElementFactory();
 
-    private IElement label = elementFactory.getLabel(By.xpath("//*[@id='content']/div/p"), "Test Label");
+    private final IElement label = elementFactory.getLabel(By.xpath("//*[@id='content']/div/p"), "Test Label");
 
-    protected BasicAuthorizationPage(By locator, String name) {
-        super(locator, name);
-    }
-
-    public BasicAuthorizationPage(String name) {
-        this(By.xpath(format("//h3[contains(text(),'%s')]", name)), format("%s page", name));
+    public BasicAuthorizationPage() {
+        super(By.xpath("//h3[contains(text(),'%s')]"), "Basic Auth");
     }
 
     public String getLableText() {

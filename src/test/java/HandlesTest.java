@@ -13,19 +13,17 @@ public class HandlesTest {
     public void handlesTest() {
         //I navigate to main page
         WebDriver driver = AqualityServices.getBrowser().getDriver();
-        HandlesPage page = new HandlesPage("Opening a new window");
+        HandlesPage page = new HandlesPage();
         Browser browser = AqualityServices.getBrowser();
         browser.goTo(PropertiesUtil.getEnvironment("environment.windows"));
-        browser.waitForPageToLoad();
 
         String firstWindow = driver.getWindowHandle();
 
         //Main page is opened
-        browser.waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "Handles page isn't opened");
 
         //I click for 'Click here' link and  switch to new window
-        page.getHndlLink().clickAndWait();
-        browser.waitForPageToLoad();
+        page.clickOnHndlLink();
         Set<String> currentWindows = driver.getWindowHandles();
         String secondWindow = null;
         for (String window : currentWindows) {
@@ -37,7 +35,6 @@ public class HandlesTest {
         driver.switchTo().window(secondWindow);
 
         //New page is opened. Check page for text and title
-        browser.waitForPageToLoad();
         Assert.assertTrue(page.getHndLableText().contains("New Window"), "The page does not contain text");
         Assert.assertTrue(driver.getTitle().contains("New Window"), "The title does not contain text");
 
@@ -45,8 +42,7 @@ public class HandlesTest {
         driver.switchTo().window(firstWindow);
 
         //I click for 'Click here' link and  switch to new window
-        page.getHndlLink().clickAndWait();
-        browser.waitForPageToLoad();
+        page.clickOnHndlLink();
         Set<String> currentWindows1 = driver.getWindowHandles();
         String thirdWindow = null;
         for (String window : currentWindows1) {
@@ -60,7 +56,6 @@ public class HandlesTest {
 
 
         //New page is opened. Check page for text and title
-        browser.waitForPageToLoad();
         Assert.assertTrue(page.getHndLableText().contains("New Window"), "The page does not contain text");
         Assert.assertTrue(driver.getTitle().contains("New Window"), "The title does not contain text");
 

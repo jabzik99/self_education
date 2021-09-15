@@ -9,28 +9,34 @@ import org.testng.Assert;
 import utilities.ModifyingUrlUtil;
 import utilities.PropertiesUtil;
 
+import javax.inject.Inject;
+
 import static java.lang.String.format;
 
 
 public class BasicAuthSteps {
-    private Browser browser = AqualityServices.getBrowser();
-    private BasicAuthorizationPage page = new BasicAuthorizationPage("Basic Auth");
+    private final Browser browser;
+    private final BasicAuthorizationPage page;
+
+    @Inject
+    BasicAuthSteps() {
+        browser = AqualityServices.getBrowser();
+        page = new BasicAuthorizationPage();
+    }
 
     @When("I navigate to the Basic Authorization page")
     public void openSite() {
         browser.goTo(PropertiesUtil.getEnvironment("environment.basic_auth"));
-        browser.waitForPageToLoad();
     }
 
     @When("I navigate to the site by modifying URL address")
     public void openMainPageByModifyingURL() {
         browser.goTo(ModifyingUrlUtil.getBasicAuthModifyingURL());
-        browser.waitForPageToLoad();
     }
 
     @Then("Basic Authorization page is opened")
     public void mainPageIsOpened() {
-        AqualityServices.getBrowser().waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "Basic Authorization page isn't opened");
     }
 
 
