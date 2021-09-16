@@ -13,7 +13,7 @@ public class BasicAuthorizationPage extends Form {
     private final IElement label = elementFactory.getLabel(By.xpath("//*[@id='content']/div/p"), "Test Label");
 
     public BasicAuthorizationPage() {
-        super(By.xpath("//h3[contains(text(),'%s')]"), "Basic Auth");
+        super(By.xpath("//h3[contains(text(),'Basic Auth')]"), "BasicAuthorization Page");
     }
 
     public String getLableText() {

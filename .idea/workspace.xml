@@ -12,13 +12,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/AlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/AlertsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HandlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandlesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IFrameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS (1)">
+  <component name="RunManager" selected="TestNG.HandlesTest.handlesTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -65,26 +58,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC - 1. Basic Authorization" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
-      <option name="GLUE" value="steps_definition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="self_education" />
-      <option name="NAME_FILTER" value="^TC \- 1\. Basic Authorization$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 1\. Basic Authorization$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC - 1. Basic Authorization" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +169,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HandlesTest.handlesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="self_education" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HandlesTest" />
+      <option name="METHOD_NAME" value="handlesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IFrameTest.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="self_education" />
       <option name="PACKAGE_NAME" value="" />
@@ -210,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HandlesTest.handlesTest" />
         <item itemvalue="Cucumber Java.Scenario: TC - 2.1 - 2.2 Alerts + JS (1)" />
         <item itemvalue="TestNG.IFrameTest.iframeTest" />
         <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers" />
         <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers for &lt;user&gt;" />
-        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +309,7 @@
       <workItem from="1631740234533" duration="214000" />
       <workItem from="1631740503348" duration="2212000" />
       <workItem from="1631742845059" duration="1594000" />
+      <workItem from="1631825804348" duration="379000" />
     </task>
     <task id="LOCAL-00007" summary="wip">
       <created>1631141660779</created>
@@ -356,7 +342,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="test" />
+                        <option value="rest_api" />
                       </list>
                     </value>
                   </entry>

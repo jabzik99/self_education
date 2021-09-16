@@ -11,7 +11,7 @@ public class HandlesPage extends Form {
     private final IElement hndLable = AqualityServices.getElementFactory().getLabel(By.xpath("//h3[contains(text(),'New Window')]"), "New window label", ElementState.EXISTS_IN_ANY_STATE);
 
     public HandlesPage() {
-        super(By.xpath("//h3[contains(text(),'%s')]"), "Opening a new window");
+        super(By.xpath("//h3[contains(text(),'Opening a new window')]"), "HandlesPage");
     }
 
     public String getHndLableText() {

@@ -17,7 +17,7 @@ public class HorizontalSliderPage extends Form {
     private final IElement rngLabel = elementFactory.getLabel(By.xpath("//*[@id='range']"), "Range value");
 
     public HorizontalSliderPage() {
-        super(By.xpath("//h3[contains(text(),'%s')]"), "Horizontal Slider");
+        super(By.xpath("//h3[contains(text(),'Horizontal Slider')]"), "Horizontal Slider");
     }
 
     public void setRandomRangeValue() {

@@ -12,7 +12,7 @@ public class AlertsPage extends Form {
     private final IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id='result']"), "Result label");
 
     public AlertsPage() {
-        super(By.xpath("//h3[contains(text(),'%s')]"), "JavaScript Alerts");
+        super(By.xpath("//h3[contains(text(),'JavaScript Alerts')]"), "Alerts Page");
     }
 
     public static String getButtonText(AlertButton button) {

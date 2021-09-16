@@ -15,7 +15,7 @@ public class IFrame extends Form {
     private final IElement txtBoldText = AqualityServices.getElementFactory().getTextBox(By.xpath("//body[@id='tinymce']/child::p/child::strong"), "Bold text");
 
     public IFrame() {
-        super(By.xpath("//h3[contains(text(),'%s')]"), "An iFrame containing the TinyMCE WYSIWYG Editor");
+        super(By.xpath("//h3[contains(text(),'An iFrame containing the TinyMCE WYSIWYG Editor')]"), "IFrame");
     }
 
     public void clickOnBtnBold() {
