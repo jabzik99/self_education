@@ -1,9 +1,9 @@
 package utilities;
 
+import io.cucumber.guice.ScenarioScoped;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import io.cucumber.guice.ScenarioScoped;
 
 @ScenarioScoped
 public class ScenarioContext {

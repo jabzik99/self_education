@@ -1,4 +1,4 @@
-package steps_definition;
+package steps_definition.alerts;
 
 import aquality.selenium.browser.AlertActions;
 import aquality.selenium.browser.AqualityServices;
@@ -10,6 +10,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import utilities.PropertiesUtil;
 import utilities.ScenarioContext;
 
 import javax.inject.Inject;
@@ -22,43 +23,20 @@ import static level_1.AlertsPage.AlertButton.CONFIRM_JS_BUTTON;
 
 public class AlertsPageSteps {
 
-
-
-    Browser browser = AqualityServices.getBrowser();
+    private final Browser browser;
     private final ScenarioContext scenarioContext;
     private final AlertsPage alertsPage;
 
     @Inject
     public AlertsPageSteps(ScenarioContext scenarioContext) {
+        browser = AqualityServices.getBrowser();
         alertsPage = new AlertsPage();
         this.scenarioContext = scenarioContext;
     }
 
-    Alert alert = new Alert() {
-        @Override
-        public void dismiss() {
-
-        }
-
-        @Override
-        public void accept() {
-
-        }
-
-        @Override
-        public String getText() {
-            return alert.getText();
-        }
-
-        @Override
-        public void sendKeys(String keysToSend) {
-
-        }
-    };
-
     @When("I navigate to the JavaScript Alerts page")
     public void openSite() {
-        browser.goTo(alertsPage.getURL());
+        browser.goTo(PropertiesUtil.getEnvironment("environment.javascript_alerts"));
         browser.waitForPageToLoad();
     }
 
@@ -103,20 +81,18 @@ public class AlertsPageSteps {
 
     @Then("Alert with {string} text is displayed")
     public void checkAlertText(String value) {
-        alert = getConditionalWait().waitFor(ExpectedConditions.alertIsPresent());
+        Alert alert = getConditionalWait().waitFor(ExpectedConditions.alertIsPresent());
         Assert.assertTrue(alert.getText().contains(value), String.format("Alert must contains %s value", value));
     }
 
     @Then("{string} message is displayed in 'Result' section")
     public void checkTextInPage(String value) {
-        Assert.assertTrue(alertsPage.lblResult.getText().contains(value), String.format("Result section must contains %s value", value));
+        Assert.assertTrue(alertsPage.getLabelText().contains(value), String.format("Result section must contains %s value", value));
     }
 
     @Then("{string} message with {string} is displayed in 'Result' section")
     public void checkTextInPageWithRandomValue(String value, String storeValue) {
         String expectedString = value + " " + scenarioContext.get(storeValue);
-        Assert.assertTrue(alertsPage.lblResult.getText().contains(expectedString), String.format("Result section must contains %s value", expectedString));
+        Assert.assertTrue(alertsPage.getLabelText().contains(expectedString), String.format("Result section must contains %s value", expectedString));
     }
-
-
 }

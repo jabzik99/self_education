@@ -6,6 +6,7 @@ Feature: Level1
     When I navigate to the site by modifying URL address
     Then 'Congratulations! You must have the proper credentials.' message is displayed on the page
 
+
   Scenario: TC - 2.1 - 2.2 Alerts + JS
     When I navigate to the JavaScript Alerts page
     Then Alerts page is opened
@@ -39,19 +40,20 @@ Feature: Level1
     When I navigate to previous page
     Then Page with users is displayed
     When I hover the pointer for 'user2' user
-    And User name for 'user2' user is displayed
+      And User name for 'user2' user is displayed
     Then Profile link for 'user2' user is displayed
     When I click profile link for 'user2'
     Then Page for 'user2' is opened
     When I navigate to previous page
     Then Page with users is displayed
     When I hover the pointer for 'user3' user
-    And User name for 'user3' user is displayed
+      And User name for 'user3' user is displayed
     Then Profile link for 'user3' user is displayed
     When I click profile link for 'user3'
     Then Page for 'user3' is opened
     When I navigate to previous page
     Then Page with users is displayed
+
 
 
 

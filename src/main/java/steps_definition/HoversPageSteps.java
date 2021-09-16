@@ -6,91 +6,68 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import level_1.HoversPage;
 import org.testng.Assert;
+import utilities.PropertiesUtil;
+
+import javax.inject.Inject;
+import java.util.Locale;
 
 import static aquality.selenium.browser.AqualityServices.getElementFactory;
-import static level_1.HoversPage.Users.*;
 
 public class HoversPageSteps {
-    Browser browser = AqualityServices.getBrowser();
-    HoversPage page = new HoversPage();
+    private final Browser browser;
+    private final HoversPage page;
+
+    @Inject
+    HoversPageSteps() {
+        browser = AqualityServices.getBrowser();
+        page = new HoversPage();
+    }
 
     @When("I navigate to Hovers page")
     public void navigateToPage() {
-        browser.goTo(page.getURL());
+        browser.goTo(PropertiesUtil.getEnvironment("environment.hovers"));
         browser.waitForPageToLoad();
     }
 
     @Then("Hovers page is opened")
     public void PageIsOpened() {
-        AqualityServices.getBrowser().waitForPageToLoad();
+        Assert.assertTrue(page.state().isDisplayed(), "Hovers page isn't opened");
     }
 
-    @When("I hover the pointer for {string} user")
-    public void hoverImg(String value) {
-        if (value.equals(page.getUserName(USER1))) {
-            getElementFactory().getLabel(USER1.getLocatorForHoverImg(), value).getMouseActions().moveMouseToElement();
-        } else if (value.equals(page.getUserName(USER2))) {
-            getElementFactory().getLabel(HoversPage.Users.USER2.getLocatorForHoverImg(), value).getMouseActions().moveMouseToElement();
-        } else {
-            getElementFactory().getLabel(USER3.getLocatorForHoverImg(), value).getMouseActions().moveMouseToElement();
-        }
+    @When("I hover the pointer for '{users}' user")
+    public void hoverImg(HoversPage.Users user) {
+        getElementFactory().getLabel(user.getLocatorForHoverImg(), user.name()).getMouseActions().moveMouseToElement();
     }
 
-    @Then("User name for {string} user is displayed")
-    public void checkUserName(String value) {
-        if (value.equals(page.getUserName(USER1))) {
-            Assert.assertTrue(USER1.getLocatorForUserName().toString().contains(value), String.format("User name must contain %s", value));
-        } else if (value.equals(page.getUserName(USER2))) {
-            Assert.assertTrue(HoversPage.Users.USER2.getLocatorForUserName().toString().contains(value), String.format("User name must contain %s", value));
-        } else {
-            Assert.assertTrue(USER3.getLocatorForUserName().toString().contains(value), String.format("User name must contain %s", value));
-        }
+    @Then("User name for '{users}' user is displayed")
+    public void checkUserName(HoversPage.Users user) {
+        Assert.assertTrue(user.getLocatorForUserName().toString().contains(user.toString().toLowerCase(Locale.ROOT)), String.format("User name must contain %s", user.toString().toLowerCase(Locale.ROOT)));
     }
 
-    @When("Profile link for {string} user is displayed")
-    public void checkProfileLink(String value){
-        if (value.equals(page.getUserName(USER1))) {
-          Assert.assertTrue(getElementFactory().getLink(USER1.getLocatorForUserName(),"User link 1").state().isDisplayed(), "Link is not displayed");
-        } else if (value.equals(page.getUserName(USER2))) {
-            Assert.assertTrue(getElementFactory().getLink(USER2.getLocatorForUserName(),"User link 1").state().isDisplayed(), "Link is not displayed");
-        } else {
-            Assert.assertTrue(getElementFactory().getLink(USER3.getLocatorForUserName(),"User link 1").state().isDisplayed(), "Link is not displayed");
-        }
+    @Then("Profile link for '{users}' user is displayed")
+    public void checkProfileLink(HoversPage.Users user) {
+        Assert.assertTrue(getElementFactory().getLink(user.getLocatorForProfileLink(), "User link ").state().isExist(), "Link is not displayed");
     }
 
-    @When("I click profile link for {string}")
-    public void clickProfileLink(String value){
-        if (value.equals(page.getUserName(USER1))) {
-            getElementFactory().getLabel(USER1.getLocatorForProfileLink(), value).click();
-            browser.waitForPageToLoad();
-        } else if (value.equals(page.getUserName(USER2))) {
-            getElementFactory().getLabel(HoversPage.Users.USER2.getLocatorForProfileLink(), value).click();
-            browser.waitForPageToLoad();
-        } else {
-            getElementFactory().getLabel(USER3.getLocatorForProfileLink(), value).click();
-            browser.waitForPageToLoad();
-        }
+    @When("I click profile link for '{users}'")
+    public void clickProfileLink(HoversPage.Users user) {
+        getElementFactory().getLabel(user.getLocatorForProfileLink(), user.getDisplayedName()).click();
     }
 
-    @Then("Page for {string} is opened")
-    public void checkPageOpening(String value){
-        if (value.equals(page.getUserName(USER1))) {
-            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/1"));
-        } else if (value.equals(page.getUserName(USER2))) {
-            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/2"));
-        } else {
-            Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains("/users/3"));
-        }
+    @Then("Page for '{users}' is opened")
+    public void checkPageOpening(HoversPage.Users user) {
+        page.state().waitForDisplayed();
+        Integer userOrdinal = user.ordinal() + 1;
+        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(userOrdinal.toString()), String.format("Page for %d user is not opened", userOrdinal));
     }
 
     @When("I navigate to previous page")
-    public void browserGoBack(){
+    public void browserGoBack() {
         AqualityServices.getBrowser().goBack();
-        browser.waitForPageToLoad();
     }
 
     @Then("Page with users is displayed")
-    public void checkPagewithUsers(){
-        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(page.getURL()));
+    public void checkPagewithUsers() {
+        Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(PropertiesUtil.getEnvironment("environment.hovers")), "Page is not opened");
     }
 }

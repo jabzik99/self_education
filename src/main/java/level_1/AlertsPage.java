@@ -1,23 +1,21 @@
 package level_1;
 
-import aquality.selenium.elements.ElementType;
 import aquality.selenium.elements.interfaces.IElement;
+import aquality.selenium.forms.Form;
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.By;
 
-import static aquality.selenium.browser.AqualityServices.getElementFactory;
 import static java.lang.String.format;
 
-public class AlertsPage {
+public class AlertsPage extends Form {
 
-    private static final String URL = "http://the-internet.herokuapp.com/javascript_alerts";
-    public IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id=\"result\"]"), "Result label");
+    private final IElement lblResult = getElementFactory().getLabel(By.xpath("//p[@id='result']"), "Result label");
 
-    public String getURL() {
-        return AlertsPage.URL;
+    public AlertsPage() {
+        super(By.xpath("//h3[contains(text(),'%s')]"), "JavaScript Alerts");
     }
 
-    public String getButtonText(AlertButton button) {
+    public static String getButtonText(AlertButton button) {
         return button.btnName;
     }
 
@@ -33,12 +31,9 @@ public class AlertsPage {
             return By.xpath(format(XPATH_TEMPLATE, btnName));
         }
 
-
-        public ElementType getElementType() {
-            return ElementType.BUTTON;
-        }
-
     }
 
-
+    public String getLabelText() {
+        return lblResult.getText();
+    }
 }
