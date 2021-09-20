@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="Merge remote-tracking branch 'origin/test' into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/ex1_response.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/APIUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/TestUser5.json" afterDir="false" />
+    <list default="true" id="c030ddd0-ca5c-4da0-acbd-74e0f40b36e6" name="Default Changelist" comment="fix comments">
+      <change afterPath="$PROJECT_DIR$/src/main/java/level_2/Ex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_2/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_2/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/level_2/Exercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/APIUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/APIUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/TestUser5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/TestUser5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/environment.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,36 +51,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Exercise5">
+  <component name="RunManager" selected="TestNG.APITest.apiTest">
     <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="level_2.Exercise1" />
-      <module name="self_education" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level_2.Exercise2" />
-      <module name="self_education" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level_2.Exercise3" />
       <module name="self_education" />
       <extension name="coverage">
         <pattern>
@@ -181,13 +151,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="APITest.apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="self_education" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APITest" />
+      <option name="METHOD_NAME" value="apiTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.apitest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="self_education" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="APITest" />
+      <option name="METHOD_NAME" value="apitest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITest.apiTest" />
         <item itemvalue="Application.Exercise5" />
-        <item itemvalue="Application.Exercise4" />
-        <item itemvalue="Application.Exercise3" />
-        <item itemvalue="Application.Exercise2" />
+        <item itemvalue="TestNG.APITest.apitest" />
         <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.Exercise4" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +251,10 @@
       <workItem from="1630871119678" duration="413000" />
       <workItem from="1630871967045" duration="66000" />
       <workItem from="1630872050743" duration="2007000" />
+      <workItem from="1632083762896" duration="5324000" />
+      <workItem from="1632089192680" duration="396000" />
+      <workItem from="1632160610541" duration="8675000" />
+      <workItem from="1632169379143" duration="1759000" />
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -275,7 +273,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="test" />
+                        <option value="main_1" />
                       </list>
                     </value>
                   </entry>
@@ -294,5 +292,12 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/test' into test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/test' into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/test' into test&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="models.Company" memberName="companyname" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -11,5 +11,4 @@ public class Address {
     String city;
     String zipcode;
     List<Geo> geo;
-
 }
