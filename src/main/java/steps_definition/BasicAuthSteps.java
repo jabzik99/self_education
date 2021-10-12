@@ -36,7 +36,7 @@ public class BasicAuthSteps {
 
     @Then("Basic Authorization page is opened")
     public void mainPageIsOpened() {
-        Assert.assertTrue(page.state().isDisplayed(), "Basic Authorization page isn't opened");
+        Assert.assertTrue(page.state().waitForDisplayed(), "Basic Authorization page isn't opened");
     }
 
 

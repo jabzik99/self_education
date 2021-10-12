@@ -2,9 +2,9 @@ Feature: Level1
 
   Scenario: TC - 1. Basic Authorization
     When I navigate to the Basic Authorization page
-    Then Basic Authorization page is opened
-    When I navigate to the site by modifying URL address
+    And I navigate to the site by modifying URL address
     Then 'Congratulations! You must have the proper credentials.' message is displayed on the page
+    And Basic Authorization page is opened
 
 
   Scenario: TC - 2.1 - 2.2 Alerts + JS

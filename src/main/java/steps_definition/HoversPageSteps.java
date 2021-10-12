@@ -31,7 +31,7 @@ public class HoversPageSteps {
 
     @Then("Hovers page is opened")
     public void PageIsOpened() {
-        Assert.assertTrue(page.state().isDisplayed(), "Hovers page isn't opened");
+        Assert.assertTrue(page.state().waitForDisplayed(), "Hovers page isn't opened");
     }
 
     @When("I hover the pointer for '{users}' user")
@@ -56,7 +56,6 @@ public class HoversPageSteps {
 
     @Then("Page for '{users}' is opened")
     public void checkPageOpening(HoversPage.Users user) {
-        page.state().waitForDisplayed();
         Integer userOrdinal = user.ordinal() + 1;
         Assert.assertTrue(AqualityServices.getBrowser().getCurrentUrl().contains(userOrdinal.toString()), String.format("Page for %d user is not opened", userOrdinal));
     }

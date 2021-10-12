@@ -10,7 +10,7 @@ import static java.lang.String.format;
 public class HoversPage extends Form {
 
     public HoversPage() {
-        super(By.xpath("//h3[contains(text(),Hovers')]"), "HoversPage");
+        super(By.xpath("//h3[contains(text(),'Hovers')]"), "HoversPage");
     }
 
     @AllArgsConstructor
