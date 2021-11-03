@@ -47,9 +47,9 @@ public class AlertsPageSteps {
 
     @When("I click {string} button")
     public void clickAlertButton(String value) {
-        if (value.equals(alertsPage.getButtonText(ALLERT_JS_BUTTON))) {
+        if (value.equals(AlertsPage.getButtonText(ALLERT_JS_BUTTON))) {
             getElementFactory().getButton(ALLERT_JS_BUTTON.getLocator(), value).click();
-        } else if (value.equals(alertsPage.getButtonText(CONFIRM_JS_BUTTON))) {
+        } else if (value.equals(AlertsPage.getButtonText(CONFIRM_JS_BUTTON))) {
             getElementFactory().getButton(AlertsPage.AlertButton.CONFIRM_JS_BUTTON.getLocator(), value).click();
         } else {
             getElementFactory().getButton(AlertsPage.AlertButton.PROMT_JS_BUTTON.getLocator(), value).click();
@@ -58,9 +58,9 @@ public class AlertsPageSteps {
 
     @When("I click {string} button with JS functions")
     public void clickAlertButtonWithJSFunctions(String value) {
-        if (value.equals(alertsPage.getButtonText(ALLERT_JS_BUTTON))) {
+        if (value.equals(AlertsPage.getButtonText(ALLERT_JS_BUTTON))) {
             getElementFactory().getButton(ALLERT_JS_BUTTON.getLocator(), value).getJsActions().click();
-        } else if (value.equals(alertsPage.getButtonText(CONFIRM_JS_BUTTON))) {
+        } else if (value.equals(AlertsPage.getButtonText(CONFIRM_JS_BUTTON))) {
             getElementFactory().getButton(AlertsPage.AlertButton.CONFIRM_JS_BUTTON.getLocator(), value).getJsActions().click();
         } else {
             getElementFactory().getButton(AlertsPage.AlertButton.PROMT_JS_BUTTON.getLocator(), value).getJsActions().click();
