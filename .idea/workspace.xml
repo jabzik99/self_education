@@ -6,6 +6,54 @@
   <component name="ChangeListManager">
     <list default="true" id="3c1f119b-1081-4917-a88b-0318b2801186" name="Default Changelist" comment="vk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/VkMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/VkMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/BasicAuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/BasicAuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/HandlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/HorizontalSliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/HoversPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/level_1/IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/level_1/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Geo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/BasicAuthSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definition/BasicAuthSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HorizontalSliderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definition/HorizontalSliderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/HoversPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definition/HoversPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/AlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definition/alerts/AlertsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps_definition/alerts/ParameterTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definition/alerts/ParameterTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/APIUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/APIUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/FileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ICustomParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ICustomParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ImagesCompareUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ImagesCompareUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/JsonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ModifyingUrlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ModifyingUrlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/RegexUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/RegexUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ScenarioContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ScenarioContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/MyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/MyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/VkNavigationPanelForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/VkNavigationPanelForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/models/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/models/Like.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/models/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/models/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/models/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/models/Photo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vk/models/WallUploadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/vk/models/WallUploadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/allure.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basicauthtestdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/basicauthtestdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/TestUser5.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/TestUser5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/pepe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/pepe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/vktestdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/vktestdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HandlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandlesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +102,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/data" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\self_education\src\main\resources" />
       <recent name="D:\self_education\src\main\resources\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\self_education\src\test\resources" />
       <recent name="D:\self_education\src\main\resources\data" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.VkTest.vkTest">
+  <component name="RunManager" selected="TestNG.APITest.apiTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,19 +132,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VkApiUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.VkApiUtils" />
-      <module name="self_education" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,22 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC - 4. Hovers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
-      <option name="GLUE" value="steps_definition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="HandlesTest.handlesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="self_education" />
-      <option name="NAME_FILTER" value="^TC \- 4\. Hovers$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 4\. Hovers$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC - 4. Hovers" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HandlesTest" />
+      <option name="METHOD_NAME" value="handlesTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,6 +189,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="self_education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="level_1" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VkTest.vkTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="self_education" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VkTest.vkTest" />
-        <item itemvalue="Application.VkApiUtils" />
-        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
         <item itemvalue="TestNG.APITest.apiTest" />
-        <item itemvalue="Cucumber Java.Scenario: TC - 4. Hovers" />
+        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
+        <item itemvalue="JUnit.HandlesTest.handlesTest" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.VkTest.vkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649167742338</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="vk">
+      <created>1649358598060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649358598060</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,82 +469,82 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>30</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>31</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>32</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>33</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>34</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>35</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>36</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>37</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>38</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>39</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utilities/VkApiUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/VkApiUtils.java</url>
           <line>40</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>22</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>23</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>25</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>24</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/vk/VkLoginPage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>26</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>

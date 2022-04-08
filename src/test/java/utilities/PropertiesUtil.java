@@ -8,9 +8,9 @@ import java.util.Properties;
 
 public class PropertiesUtil {
     public static final Properties properties = new Properties();
-    private final static String ENV_PROPERTIES_PATH = "src/main/resources/environment.properties";
-    private final static String BASIC_AUTH_TEST_DATA_PATH = "src/main/resources/basicauthtestdata.properties";
-    private final static String VK_TEST_DATA_PATH = "src/main/resources/vktestdata.properties";
+    private final static String ENV_PROPERTIES_PATH = "src/test/resources/environment.properties";
+    private final static String BASIC_AUTH_TEST_DATA_PATH = "src/test/resources/basicauthtestdata.properties";
+    private final static String VK_TEST_DATA_PATH = "src/test/resources/vktestdata.properties";
     public static PropertiesUtil environment = new PropertiesUtil();
 
     public void load(InputStream io) {

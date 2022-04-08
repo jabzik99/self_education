@@ -82,7 +82,7 @@ public class APITest {
         ObjectMapper mapper_5 = new ObjectMapper();
         mapper_5.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
         User user_5 = mapper_5.readValue(user_5_object.toString(), User.class);
-        FileReader reader = new FileReader("src/main/resources/data/TestUser5.json");
+        FileReader reader = new FileReader("data/TestUser5.json");
         JsonParser jsonParser = new JsonParser();
         JsonObject jsonObject = (JsonObject) jsonParser.parse(reader);
 

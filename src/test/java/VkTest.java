@@ -18,7 +18,7 @@ import static utilities.VkApiUtils.*;
 
 public class VkTest {
 
-    private static final String PEPE_FROG_IMAGE_PATH = "src/main/resources/data/pepe.jpg";
+    private static final String PEPE_FROG_IMAGE_PATH = "src/test/resources/data/pepe.jpg";
     private static final String URL = PropertiesUtil.getEnvironment("environment.vk");
 
     @Test
