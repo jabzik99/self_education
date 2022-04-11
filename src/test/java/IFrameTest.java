@@ -5,11 +5,12 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import utilities.PropertiesUtil;
 
 public class IFrameTest {
-    @Test
+    @Test @Ignore
     public void iframeTest() {
         WebDriver driver = AqualityServices.getBrowser().getDriver();
         Browser browser = AqualityServices.getBrowser();

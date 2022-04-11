@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c1f119b-1081-4917-a88b-0318b2801186" name="Default Changelist" comment="vk">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c1f119b-1081-4917-a88b-0318b2801186" name="Default Changelist" comment="jenkins" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,31 +48,37 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\self_education\src\main\resources" />
-      <recent name="D:\self_education\src\main\resources\data" />
+      <recent name="D:\self_education\src\test\java" />
+      <recent name="D:\self_education\src\test\resources\environment\vk" />
+      <recent name="D:\self_education\src\test\resources\environment\iframe" />
+      <recent name="D:\self_education\src\test\resources\environment\windows" />
+      <recent name="D:\self_education\src\test\resources\environment\hovers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\self_education\src\test\java\cucumber" />
       <recent name="D:\self_education\src\test\resources" />
+      <recent name="D:\self_education\src\test\java\cucumber\features" />
       <recent name="D:\self_education\src\main\resources\data" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITest.apiTest">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -88,35 +92,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC - 1. Basic Authorization" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/Level1features.feature" />
-      <option name="GLUE" value="steps_definition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="self_education" />
-      <option name="NAME_FILTER" value="^TC \- 1\. Basic Authorization$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC \- 1\. Basic Authorization$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC - 1. Basic Authorization" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlesTest.handlesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="self_education" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandlesTest" />
-      <option name="METHOD_NAME" value="handlesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="self_education-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/self_education-1.0-SNAPSHOT.jar" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -129,54 +107,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest.apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="self_education" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="APITest" />
-      <option name="METHOD_NAME" value="apiTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="self_education" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="level_1" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="cucumber.runners" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.runners.TestRunner" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VkTest.vkTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="self_education" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VkTest" />
-      <option name="METHOD_NAME" value="vkTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JAR Application.self_education-1.0-SNAPSHOT.jar" />
+      <item itemvalue="TestNG.TestRunner" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITest.apiTest" />
-        <item itemvalue="TestNG.VkTest.vkTest" />
+        <item itemvalue="JAR Application.self_education-1.0-SNAPSHOT.jar" />
         <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="JUnit.HandlesTest.handlesTest" />
-        <item itemvalue="Cucumber Java.Scenario: TC - 1. Basic Authorization" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +355,168 @@
       <option name="project" value="LOCAL" />
       <updated>1649626494471</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="vk">
+      <created>1649627463518</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1649627463518</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jenkins">
+      <created>1649710120257</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1649710120257</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jenkins">
+      <created>1649712142641</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1649712142641</updated>
+    </task>
+    <task id="LOCAL-00021" summary="jenkins">
+      <created>1650203434190</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650203434190</updated>
+    </task>
+    <task id="LOCAL-00022" summary="jenkins">
+      <created>1650203773580</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650203773580</updated>
+    </task>
+    <task id="LOCAL-00023" summary="jenkins">
+      <created>1650204341789</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650204341789</updated>
+    </task>
+    <task id="LOCAL-00024" summary="jenkins">
+      <created>1650755235637</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650755235637</updated>
+    </task>
+    <task id="LOCAL-00025" summary="jenkins">
+      <created>1650755579473</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650755579474</updated>
+    </task>
+    <task id="LOCAL-00026" summary="jenkins">
+      <created>1651278824494</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1651278824494</updated>
+    </task>
+    <task id="LOCAL-00027" summary="jenkins">
+      <created>1651279791200</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651279791200</updated>
+    </task>
+    <task id="LOCAL-00028" summary="jenkins">
+      <created>1651279837223</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651279837223</updated>
+    </task>
+    <task id="LOCAL-00029" summary="jenkins">
+      <created>1651281861021</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651281861021</updated>
+    </task>
+    <task id="LOCAL-00030" summary="jenkins">
+      <created>1651282300687</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651282300687</updated>
+    </task>
+    <task id="LOCAL-00031" summary="jenkins">
+      <created>1651282454299</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651282454299</updated>
+    </task>
+    <task id="LOCAL-00032" summary="jenkins">
+      <created>1651284240856</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651284240856</updated>
+    </task>
+    <task id="LOCAL-00033" summary="jenkins">
+      <created>1651284805159</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651284805159</updated>
+    </task>
+    <task id="LOCAL-00034" summary="jenkins">
+      <created>1651285171832</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651285171832</updated>
+    </task>
+    <task id="LOCAL-00035" summary="jenkins">
+      <created>1651285455485</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651285455485</updated>
+    </task>
+    <task id="LOCAL-00036" summary="jenkins">
+      <created>1651492171270</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1651492171270</updated>
+    </task>
+    <task id="LOCAL-00037" summary="jenkins">
+      <created>1651493326130</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651493326130</updated>
+    </task>
+    <task id="LOCAL-00038" summary="jenkins">
+      <created>1651497549515</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651497549515</updated>
+    </task>
+    <task id="LOCAL-00039" summary="jenkins">
+      <created>1651498634327</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651498634327</updated>
+    </task>
+    <task id="LOCAL-00040" summary="jenkins">
+      <created>1651498890650</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651498890650</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,12 +546,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="wip" />
     <MESSAGE value="fix comments" />
-    <MESSAGE value="jenkins" />
     <MESSAGE value="vk" />
-    <option name="LAST_COMMIT_MESSAGE" value="vk" />
+    <MESSAGE value="jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,6 +636,89 @@
           <url>file://$PROJECT_DIR$/src/test/java/vk/VkLoginPage.java</url>
           <line>26</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumber/steps/HoversPageSteps.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/configuration/Environment.java</url>
+          <line>13</line>
+          <properties class="configuration.Environment">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/JsonObjectMapper.java</url>
+          <line>35</line>
+          <properties class="utilities.JsonObjectMapper" method="changeBrowser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

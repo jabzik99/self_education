@@ -8,6 +8,7 @@ import models.User;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import utilities.APIUtils;
 import utilities.PropertiesUtil;
@@ -28,7 +29,7 @@ public class APITest {
     private final static String ALL_USERS = PropertiesUtil.getEnvironment("environment.users");
     private final static String USER_5 = PropertiesUtil.getEnvironment("environment.user5");
 
-    @Test
+    @Test @Ignore
     public void apiTest() throws IOException, InterruptedException {
         //step 1
         HttpResponse<String> response_1 = APIUtils.getResponseFromGetRequest(ALL_POSTS);

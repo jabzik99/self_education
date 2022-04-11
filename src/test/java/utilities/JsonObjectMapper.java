@@ -3,10 +3,16 @@ package utilities;
 import aquality.selenium.browser.AqualityServices;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 @UtilityClass
 public class JsonObjectMapper {
@@ -24,5 +30,14 @@ public class JsonObjectMapper {
             AqualityServices.getLogger().error(errorMsg);
             throw new IllegalArgumentException(errorMsg);
         }
+    }
+
+    @SneakyThrows
+    public void changeBrowser(String browser) {
+        byte[] jsonData = Files.readAllBytes(Paths.get("src/test/resources/settings.json"));
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode rootNode = objectMapper.readTree(jsonData);
+        ((ObjectNode) rootNode).put("browserName", browser);
+        objectMapper.writeValue(new File("src/test/resources/settings.json"), rootNode);
     }
 }

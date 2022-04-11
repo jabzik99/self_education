@@ -11,6 +11,7 @@ public class PropertiesUtil {
     private final static String ENV_PROPERTIES_PATH = "src/test/resources/environment.properties";
     private final static String BASIC_AUTH_TEST_DATA_PATH = "src/test/resources/basicauthtestdata.properties";
     private final static String VK_TEST_DATA_PATH = "src/test/resources/vktestdata.properties";
+    private final static String BROWSER_DATA_PATH = "src/test/resources/browser.properties";
     public static PropertiesUtil environment = new PropertiesUtil();
 
     public void load(InputStream io) {
@@ -30,6 +31,16 @@ public class PropertiesUtil {
             e.printStackTrace();
         }
         return properties.getProperty(key);
+    }
+
+    public static String getBrowser() {
+        File file = new File(BROWSER_DATA_PATH);
+        try (FileInputStream io = new FileInputStream(file)) {
+            environment.load(io);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return properties.getProperty("bw");
     }
 
     public static String getBasicAuthTestData(String key) {

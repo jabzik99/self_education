@@ -1,15 +1,16 @@
 import aquality.selenium.browser.AqualityServices;
 import aquality.selenium.browser.Browser;
 import level_1.HandlesPage;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
 import utilities.PropertiesUtil;
 
 import java.util.Set;
 
 public class HandlesTest {
-    @Test
+    @Test @Ignore
     public void handlesTest() {
         //I navigate to main page
         WebDriver driver = AqualityServices.getBrowser().getDriver();

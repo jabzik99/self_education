@@ -2,6 +2,7 @@ import aquality.selenium.browser.AqualityServices;
 import aquality.selenium.browser.Browser;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import utilities.DataReader;
 import utilities.ImagesCompareUtil;
@@ -21,7 +22,7 @@ public class VkTest {
     private static final String PEPE_FROG_IMAGE_PATH = "src/test/resources/data/pepe.jpg";
     private static final String URL = PropertiesUtil.getEnvironment("environment.vk");
 
-    @Test
+    @Test @Ignore
     public void vkTest() {
         //1 step
         Browser browser = AqualityServices.getBrowser();
