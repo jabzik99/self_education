@@ -1,0 +1,94 @@
+{
+  "platformName": "android",
+  "browserName": "chrome",
+  "isRemote": false,
+  "remoteConnectionUrl": "http://127.0.0.1:4723/wd/hub",
+  "isElementHighlightEnabled": true,
+  "driverSettings": {
+    "chrome": {
+      "webDriverVersion": "latest",
+      "capabilities": {
+        "enableVNC": true
+      },
+      "options": {
+        "intl.accept_languages": "en",
+        "safebrowsing.enabled": "true",
+        "profile.default_content_settings.popups": "0",
+        "disable-popup-blocking": "true",
+        "download.prompt_for_download": "false",
+        "download.default_directory": "./target/download"
+      },
+      "startArguments": [
+        "window-size=1920,1080",
+        "--no-sandbox",
+        "--disable-popup-blocking",
+        "--disable-gpu",
+        "--disable-dev-shm-usage"
+      ]
+    },
+    "firefox": {
+      "webDriverVersion": "latest",
+      "capabilities": {
+        "enableVNC": true
+      },
+      "options": {
+        "intl.accept_languages": "en",
+        "browser.download.dir": "//home//selenium//downloads",
+        "browser.download.folderList": 2,
+        "browser.helperApps.neverAsk.saveToDisk": "application/octet-stream, application/x-debian-package, application/x-www-form-urlencod, application/json, application/x-compressed, application/x-zip-compressed, application/zip, multipart/x-zip, text/plain, text/csv",
+        "browser.helperApps.alwaysAsk.force": false,
+        "browser.download.manager.alertOnEXEOpen": false,
+        "browser.download.manager.focusWhenStarting": false,
+        "browser.download.useDownloadDir": true,
+        "browser.download.manager.showWhenStarting": false,
+        "browser.download.manager.closeWhenDone": true,
+        "browser.download.manager.showAlertOnComplete": false,
+        "browser.download.manager.useWindow": false,
+        "browser.download.panel.shown": false
+      },
+      "startArguments": []
+    },
+    "android": {
+      "applicationPath": "",
+      "capabilities": {
+        "deviceName": "",
+        "automationName": "UIAutomator2",
+        "eventTimings": true,
+        "uiautomator2ServerInstallTimeout": 30000
+      }
+    },
+    "ios": {
+      "applicationPath": "",
+      "capabilities": {
+        "deviceName": "",
+        "automationName": "",
+        "platformName": "",
+        "udid": "<SIMULATOR_ID/DEVICE_ID>"
+      }
+    }
+  },
+  "localServiceSettings": {
+    "arguments": {
+      "--allow-insecure": "chromedriver_autodownload"
+    },
+    "capabilities": {}
+  },
+  "timeouts": {
+    "timeoutImplicit": 5,
+    "timeoutCondition": 25,
+    "timeoutScript": 30,
+    "timeoutPageLoad": 300,
+    "timeoutPollingInterval": 300,
+    "timeoutCommand": 120
+  },
+  "retry": {
+    "number": 2,
+    "pollingInterval": 300
+  },
+  "logger": {
+    "language": "en"
+  },
+  "elementCache": {
+    "isEnabled": false
+  }
+}
